@@ -8,7 +8,7 @@
 <h5 align="center">By Tejaswi</h5>
 
 
-## 😊Sorting Algorithm Visualizer ▶ [Try It Now]()
+## 😊Sorting Algorithm Visualizer ▶ [Try It Now](https://tejaswijadhav2003.github.io/Algorithm_Visualizer/)
 --------------------
 
 **_Sorting.Visualizer is a web application developed by AIT Pune student Tejaswi to visualise a variety of sorting algorithms._**
