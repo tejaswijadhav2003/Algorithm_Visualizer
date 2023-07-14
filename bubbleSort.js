@@ -5,11 +5,11 @@ async function bubble() {
             ele[j].style.background = '#f0ad4e';
             ele[j+1].style.background = '#f0ad4e';
             if(parseInt(ele[j].style.height) > parseInt(ele[j+1].style.height)){
-                await waitforme(150);
+                await waitforme(10);
                 swap(ele[j], ele[j+1]);
             }
-            ele[j].style.background = 'white';
-            ele[j+1].style.background = 'white';
+            ele[j].style.background = '#d9534f';
+            ele[j+1].style.background = '#d9534f';
         }
         ele[ele.length-1-i].style.background = 	'#00FA9A';
     }

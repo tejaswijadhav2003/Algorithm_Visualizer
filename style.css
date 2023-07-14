@@ -3,10 +3,17 @@ body {
   font-size: 20px;
   padding: 20px 20px 30px 0;
   line-height: 1.4;
+  background-color: rgb(255, 255, 255);
+}
+.btn-outline{
   background-color: black;
+  color: aqua;
+}
+.btn{
+  border: #e87fca;
 }
 a:link, a:visited{
-  color: #f0ad4e;
+  color: #e87fca;
   font-weight:540;
   text-decoration: none;
 }
@@ -22,9 +29,9 @@ a:hover{
   justify-content: center;
 }
 .flex-item{
-  background: white;
-  border: 1pt solid black;
-  width: 15px;
+  background: rgb(140, 228, 238);
+  border: 1pt solid rgb(255, 255, 255);
+  width: 20px;
 }
 .row{
   display: grid;

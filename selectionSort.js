@@ -5,15 +5,15 @@ async function selection(){
         ele[i].style.background = '#d9534f';
         for(let j = i+1; j < ele.length; j++){
             ele[j].style.background = '#f0ad4e';
-            await waitforme(150);
+            await waitforme(10);
             if(parseInt(ele[j].style.height) < parseInt(ele[min_index].style.height)){
                 if(min_index !== i){
-                    ele[min_index].style.background = 'white';
+                    ele[min_index].style.background = 'Pink';
                 }
                 min_index = j;
             } 
             else{
-                ele[j].style.background = 'white';
+                ele[j].style.background = 'Pink';
             }   
         }
         await waitforme(150);
